@@ -1,0 +1,28 @@
+.odd {
+    background-color: rgb(238, 96, 96);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.third {
+    font-size: 24px;
+}
+
+
+
+#second {
+    color: rgb(10, 10, 243);
+    font-size: 36px;
+}
+
+#fourth {
+    background-color: rgb(106, 219, 106);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* alternatively, we can group font-weight of fourth and third tgt by adding a class to fourth 
+Lise so:
+#adjust-size {
+    font-size: 24px;
+}
+*/
