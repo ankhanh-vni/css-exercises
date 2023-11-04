@@ -6,7 +6,7 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin:0 auto;
   padding: 8px;
 }
 
@@ -15,19 +15,19 @@ body {
   background: #e3f4ff;
   margin:inherit;
   padding: 8px;
+  margin: 0 0 8px;
 }
 
 .content {
   background: #e3f4ff;
   padding: 16px 8px;
-  margin: inherit;
+  margin: 0 0 8px;
 }
 
 .button-container {
   padding: 8px;
   text-align: center;
   background: #e3f4ff;
-  margin:inherit;
 }
 
 button {
