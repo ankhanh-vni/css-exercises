@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* You cannot use justify-content: space-between here because then the content does not grow; */
 }
 
 img {
@@ -24,4 +27,48 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+
+
+
+
+/* SOLUTION */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.header,
+.footer {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 1em;
+}
+
+.footer {
+  background: #eee;
+}
+.buttons button {
+  padding: 8px 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  flex: 1;
 }
